@@ -74,6 +74,7 @@ button{
     justify-content: center;
 }
 
+
 button img{
     margin-right: 15px;
     height: auto;
@@ -83,3 +84,29 @@ button img{
 p{
     line-height: 1.5rem;
 }
+
+@media screen and (max-width: 375px) {
+    .container{
+        width: 90%;
+        padding: 20px 10px;
+        margin: 20px auto;
+        display: block;
+        overflow: auto;
+    }
+    img{
+        float: left;
+        width: 100%;
+        border-radius: 20px 20px 0 0;
+    }
+    .section{
+        float: left;
+        border-radius: 0 0 20px 20px;
+    }
+    #hero{
+        font-size: 28px;
+    }
+    #pricing{
+        font-size: 28px;
+        font-weight: 700;
+    }
+  }
