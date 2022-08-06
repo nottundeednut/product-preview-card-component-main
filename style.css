@@ -85,7 +85,7 @@ p{
     line-height: 1.5rem;
 }
 
-@media screen and (max-width: 375px) {
+@media screen and (max-width: 450px) {
     .container{
         width: 90%;
         padding: 20px 10px;
