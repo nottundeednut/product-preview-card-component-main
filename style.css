@@ -74,6 +74,10 @@ button{
     justify-content: center;
 }
 
+.mobile-pic {
+    display: none;
+}
+
 
 button img{
     margin-right: 15px;
@@ -108,5 +112,11 @@ p{
     #pricing{
         font-size: 28px;
         font-weight: 700;
+    }
+    .mobile-pic{
+        display: block;
+    }
+    .desktop-pic{
+        display: none;
     }
   }
